@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Contacts.iml" filepath="$PROJECT_DIR$/Contacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/contactsCommon/contactsCommon.iml" filepath="$PROJECT_DIR$/contactsCommon/contactsCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mytpplication/mytpplication.iml" filepath="$PROJECT_DIR$/mytpplication/mytpplication.iml" />
     </modules>
   </component>
 </project>

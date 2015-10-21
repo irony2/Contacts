@@ -1,2 +1,2 @@
-include ':app', ':mytpplication'
+include ':app'
 include ':contactsCommon'
