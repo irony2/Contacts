@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw720dp/colors.xml -->
+    <eat-comment/>
+    <color name="list_item_pinned_header_color">@color/contact_all_list_background_color</color>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw720dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="contact_picker_contact_list_min_height">650dip</dimen>
+    <dimen name="editor_round_button_padding_left">8dip</dimen>
+    <dimen name="editor_round_button_padding_right">8dip</dimen>
+    <dimen name="editor_type_label_width">180dip</dimen>
+    <dimen name="expanding_entry_card_marginStartEnd">10dp</dimen>
+    <dimen name="floating_action_button_margin_right">100dp</dimen>
+    <dimen name="group_editor_side_padding">16dip</dimen>
+    <dimen name="list_visible_scrollbar_padding">48dip</dimen>
+    <dimen name="quick_contact_photo_container_height">360dip</dimen>
+    <dimen name="quickcontact_maximum_title_size">64dp</dimen>
+    <dimen name="quickcontact_title_initial_margin">32dp</dimen>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw720dp/integers.xml -->
+    <eat-comment/>
+    <integer name="contact_list_card_layout_weight">81</integer>
+    <integer name="contact_list_space_layout_weight">11</integer>
+    <integer name="contact_tile_column_count">2</integer>
+    <integer name="contact_tile_column_count_in_favorites">4</integer>
+</resources>

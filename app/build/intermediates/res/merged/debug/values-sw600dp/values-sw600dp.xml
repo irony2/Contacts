@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="account_container_left_padding">16dip</dimen>
+    <dimen name="contact_browser_list_item_gap_between_image_and_text">25dp</dimen>
+    <dimen name="contact_browser_list_item_photo_size">50dp</dimen>
+    <dimen name="contact_browser_list_item_text_size">18sp</dimen>
+    <dimen name="contact_browser_list_top_margin">18dp</dimen>
+    <dimen name="contact_detail_list_top_padding">8dip</dimen>
+    <dimen name="contact_tile_list_padding_top">18dip</dimen>
+    <dimen name="detail_item_icon_margin">8dip</dimen>
+    <dimen name="detail_item_vertical_margin">16dip</dimen>
+    <dimen name="editor_add_field_label_left_padding">16dip</dimen>
+    <dimen name="editor_padding_top">32dip</dimen>
+    <dimen name="editor_type_label_width">122dip</dimen>
+    <dimen name="frequently_contacted_title_text_size">24sp</dimen>
+    <dimen name="group_detail_border_padding">16dip</dimen>
+    <dimen name="group_editor_autocomplete_left_padding">16dip</dimen>
+    <dimen name="group_editor_member_list_left_margin">4dip</dimen>
+    <dimen name="group_editor_member_list_right_margin">4dip</dimen>
+    <dimen name="group_member_item_left_padding">12dip</dimen>
+    <dimen name="join_header_bottom_margin">16dip</dimen>
+    <dimen name="join_header_left_margin">24dip</dimen>
+    <dimen name="join_header_right_margin">@dimen/list_visible_scrollbar_padding</dimen>
+    <dimen name="join_header_top_margin">16dip</dimen>
+    <dimen name="list_header_extra_top_padding">@dimen/contact_browser_list_top_margin</dimen>
+    <dimen name="list_section_height">37dip</dimen>
+    <dimen name="list_visible_scrollbar_padding">32dip</dimen>
+    <dimen name="quick_contact_photo_container_height">360dip</dimen>
+    <dimen name="search_view_width">400dip</dimen>
+    <dimen name="shortcut_icon_size">64dip</dimen>
+    <dimen name="tab_selected_underline_height">3dp</dimen>
+    <dimen name="tab_text_size">16sp</dimen>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw600dp/integers.xml -->
+    <eat-comment/>
+    <integer name="contact_tile_column_count">2</integer>
+    <integer name="contact_tile_column_count_in_favorites">4</integer>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="ConfirmAddDetailHeaderViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dip</item>
+    </style>
+    <style name="ConfirmAddDetailViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ContactPickerLayout" parent="ContactPickerTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DetailActivityTheme" parent="@android:Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="DirectoryHeader" parent="PeopleTheme">
+        <item name="android:paddingTop">0dip</item>
+
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

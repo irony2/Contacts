@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/java/workspace/Android6.0_test/Contacts/app/src/main/res/values-w590dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="people_activity_landscape_tabs_text_size">14dp</dimen>
+    <dimen name="people_activity_landscape_tabs_width">350dip</dimen>
+</resources>

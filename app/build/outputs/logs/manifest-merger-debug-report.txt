@@ -1,0 +1,693 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:17:1-528:12
+	android:sharedUserId
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:19:5-46
+	xmlns:android
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:17:11-69
+	package
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:18:5-35
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:21:5-74
+	android:targetSdkVersion
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:21:42-71
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:21:15-41
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml
+original-package
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:22:5-61
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:22:23-58
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:24:5-69
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:24:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:25:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:26:22-70
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:27:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:31:5-71
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:31:22-68
+uses-permission#android.permission.WRITE_PROFILE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:32:5-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:32:22-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:33:22-64
+uses-permission#android.permission.NFC
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:34:5-62
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:34:22-59
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:37:5-73
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:37:22-70
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:38:5-74
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:38:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:39:5-66
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:39:22-63
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:40:5-77
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:40:22-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:41:5-80
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:41:22-77
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:42:5-87
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:42:22-85
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:44:5-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:44:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:45:5-67
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:45:22-64
+uses-permission#android.permission.READ_CALENDAR
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:46:5-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:46:22-69
+uses-permission#com.android.voicemail.permission.READ_VOICEMAIL
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:47:5-87
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:47:22-84
+application
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:49:5-527:19
+	android:supportsRtl
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:55:9-35
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:51:9-49
+	android:icon
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:52:9-57
+	android:hardwareAccelerated
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:54:9-43
+	android:taskAffinity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:53:9-53
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:50:9-64
+	android:usesCleartextTraffic
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:56:9-45
+activity#com.android.contacts.activities.PeopleActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:60:9-136:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:61:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:62:13-47
+	android:clearTaskOnLaunch
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:60:19-60
+	android:launchMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:64:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.APP_CONTACTS+android.intent.category.BROWSABLE+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:66:13-72:29
+action#android.intent.action.MAIN
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:68:27-73
+category#android.intent.category.LAUNCHER
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:69:27-74
+category#android.intent.category.BROWSABLE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:70:27-75
+category#android.intent.category.APP_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:71:17-81
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:71:27-78
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:73:13-77:29
+action#com.android.contacts.action.LIST_DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:74:17-83
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:74:25-80
+category#android.intent.category.TAB
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:76:17-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:76:27-69
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:79:13-83:29
+action#com.android.contacts.action.LIST_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:80:17-84
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:80:25-81
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_ALL_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:85:13-89:29
+action#com.android.contacts.action.LIST_ALL_CONTACTS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:86:17-88
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:86:25-85
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_CONTACTS_WITH_PHONES
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:91:13-95:29
+action#com.android.contacts.action.LIST_CONTACTS_WITH_PHONES
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:92:17-96
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:92:25-93
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_STARRED
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:97:13-101:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:97:28-63
+action#com.android.contacts.action.LIST_STARRED
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:98:17-83
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:98:25-80
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_FREQUENT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:103:13-107:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:103:28-64
+action#com.android.contacts.action.LIST_FREQUENT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:104:17-84
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:104:25-81
+intent-filter#android.intent.category.DEFAULT+android.intent.category.TAB+com.android.contacts.action.LIST_STREQUENT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:109:13-113:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:109:28-65
+action#com.android.contacts.action.LIST_STREQUENT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:110:17-85
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:110:25-82
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:115:13-119:29
+action#android.intent.action.SEARCH
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:116:17-71
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:116:25-68
+data
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:118:17-75
+	android:mimeType
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:118:23-72
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:126:13-131:29
+action#android.intent.action.VIEW
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:127:17-69
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:127:25-66
+meta-data#android.app.searchable
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:133:13-135:15
+	android:resource
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:134:17-51
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:133:24-61
+activity#com.android.contacts.activities.ContactSelectionActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:138:9-180:20
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:144:13-55
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:139:13-58
+	android:uiOptions
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:143:13-57
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:140:13-54
+	android:clearTaskOnLaunch
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:142:13-45
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:138:19-70
+	android:launchMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:141:13-43
+intent-filter#android.intent.action.INSERT_OR_EDIT+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:145:13-151:29
+action#android.intent.action.INSERT_OR_EDIT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:146:17-79
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:146:25-76
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:153:13-163:29
+action#android.intent.action.PICK
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:154:17-69
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:154:25-66
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:165:13-174:29
+action#android.intent.action.GET_CONTENT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:166:17-76
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:166:25-73
+intent-filter#android.intent.category.DEFAULT+com.android.contacts.action.JOIN_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:176:13-179:29
+action#com.android.contacts.action.JOIN_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:177:17-83
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:177:25-80
+activity-alias#com.android.contacts.ContactsListActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:183:9-185:11
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:184:13-64
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:183:25-60
+activity-alias#com.android.contacts.activities.ContactsFrontDoor
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:188:9-191:11
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:190:13-36
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:189:13-64
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:188:25-69
+activity-alias#com.android.contacts.DialtactsContactsEntryActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:194:9-197:11
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:196:13-36
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:195:13-64
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:194:25-70
+activity#com.android.contacts.preference.ContactsPreferenceActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:200:9-204:39
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:202:13-60
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:203:13-60
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:204:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:201:13-66
+activity#com.android.contacts.common.list.AccountFilterActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:207:9-210:61
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:209:13-67
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:210:13-58
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:208:13-62
+activity#com.android.contacts.common.list.CustomContactListFilterActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:213:9-216:61
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:215:13-55
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:216:13-58
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:214:13-72
+activity#com.android.contacts.common.activity.RequestPermissionsActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:218:9-222:39
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:220:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:221:13-47
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:222:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:219:13-71
+activity#com.android.contacts.common.activity.RequestImportVCardPermissionsActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:224:9-228:39
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:226:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:227:13-47
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:228:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:225:13-82
+activity#com.android.contacts.activities.ShowOrCreateActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:230:9-241:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:232:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:233:13-83
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:231:13-60
+intent-filter#android.intent.category.DEFAULT+com.android.contacts.action.SHOW_OR_CREATE_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:235:13-240:29
+action#com.android.contacts.action.SHOW_OR_CREATE_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:236:17-93
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:236:25-90
+activity#com.android.contacts.activities.GroupDetailActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:244:9-246:57
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:245:13-29
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:246:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:244:19-65
+activity#com.android.contacts.activities.GroupEditorActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:249:9-252:58
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:252:13-55
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:251:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:250:13-59
+activity#com.android.contacts.quickcontact.QuickContactActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:254:9-278:20
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:261:13-57
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:256:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:257:13-54
+	android:excludeFromRecents
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:259:13-46
+	android:taskAffinity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:260:13-36
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:255:13-62
+	android:launchMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:258:13-43
+intent-filter#android.intent.category.DEFAULT+android.provider.action.QUICK_CONTACT+com.android.contacts.action.QUICK_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:263:13-269:29
+action#com.android.contacts.action.QUICK_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:264:17-84
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:264:25-81
+action#android.provider.action.QUICK_CONTACT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:265:17-80
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:265:25-77
+receiver#com.android.contacts.quickcontact.QuickContactBroadcastReceiver
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:280:9-282:40
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:282:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:281:13-71
+activity-alias#com.android.contacts.ContactShortcut
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:284:9-294:26
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:286:13-52
+	android:icon
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:287:13-72
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:285:13-74
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:284:25-55
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:289:13-292:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:290:17-80
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:290:25-77
+activity-alias#alias.DialShortcut
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:296:9-308:26
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:298:13-56
+	android:icon
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:299:13-79
+	android:enabled
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:300:13-66
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:297:13-74
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:296:25-58
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.CAR_MODE+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:302:13-306:29
+category#android.intent.category.CAR_MODE
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:305:17-77
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:305:27-74
+activity-alias#alias.MessageShortcut
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:310:9-321:26
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:312:13-59
+	android:icon
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:313:13-77
+	android:enabled
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:314:13-66
+	android:targetActivity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:311:13-74
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:310:25-61
+activity#com.android.contacts.activities.ConfirmAddDetailActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:324:9-329:39
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:328:13-55
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:326:13-70
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:327:13-63
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:329:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:325:13-64
+activity#com.android.contacts.activities.ContactEditorAccountsChangedActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:332:9-336:39
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:335:13-55
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:334:13-77
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:336:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:333:13-76
+activity#com.android.contacts.activities.CompactContactEditorActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:339:9-359:20
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:343:13-67
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:341:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:342:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:340:13-68
+intent-filter#android.intent.action.EDIT+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:345:13-351:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:345:28-74
+action#android.intent.action.EDIT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:346:17-69
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:346:25-66
+intent-filter#android.intent.action.INSERT+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:352:13-358:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:352:28-76
+action#android.intent.action.INSERT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:353:17-71
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:353:25-68
+activity#com.android.contacts.activities.ContactEditorActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:362:9-383:20
+	android:windowSoftInputMode
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:366:13-67
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:364:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:365:13-55
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:367:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:363:13-61
+intent-filter#android.intent.category.DEFAULT+com.android.contacts.action.FULL_EDIT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:369:13-375:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:369:28-74
+action#com.android.contacts.action.FULL_EDIT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:370:17-80
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:370:25-77
+intent-filter#android.intent.category.DEFAULT+com.android.contacts.action.FULL_INSERT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:376:13-382:29
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:376:28-76
+action#com.android.contacts.action.FULL_INSERT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:377:17-82
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:377:25-79
+activity#com.android.contacts.common.test.FragmentTestActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:385:9-389:20
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:385:19-67
+intent-filter#android.intent.category.TEST
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:386:13-388:29
+category#android.intent.category.TEST
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:387:17-73
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:387:27-70
+service#com.android.contacts.common.util.EmptyService
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:393:9-395:40
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:395:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:394:13-53
+service#com.android.contacts.ContactSaveService
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:398:9-400:40
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:400:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:399:13-47
+activity#com.android.contacts.activities.AttachPhotoActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:403:9-411:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:404:13-62
+	android:taskAffinity
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:405:13-36
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:403:19-65
+intent-filter#android.intent.action.ATTACH_DATA+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:406:13-410:29
+action#android.intent.action.ATTACH_DATA
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:407:17-76
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:407:25-73
+activity#com.android.contacts.common.vcard.ImportVCardActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:414:9-425:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:415:13-58
+	android:configChanges
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:416:13-74
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:417:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:414:19-67
+activity#com.android.contacts.common.vcard.NfcImportVCardActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:427:9-437:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:428:13-58
+	android:configChanges
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:429:13-74
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:430:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:427:19-70
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:431:13-436:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:432:17-77
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:432:25-74
+activity#com.android.contacts.common.vcard.CancelActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:439:9-441:58
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:440:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:441:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:439:19-62
+activity#com.android.contacts.common.vcard.SelectAccountActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:443:9-445:58
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:444:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:445:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:443:19-69
+activity#com.android.contacts.common.vcard.ExportVCardActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:447:9-449:58
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:448:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:449:13-55
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:447:19-67
+service#com.android.contacts.common.vcard.VCardService
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:451:9-453:40
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:453:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:452:13-54
+activity#com.android.contacts.widget.PinnedHeaderListDemoActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:457:9-462:20
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:457:19-70
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:458:13-461:29
+activity#com.android.contacts.NonPhoneActivity
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:469:9-491:20
+	android:label
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:472:13-58
+	android:theme
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:471:13-57
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:470:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:474:13-478:29
+	android:priority
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:474:28-49
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:479:13-484:29
+	android:priority
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:479:28-49
+service#com.android.contacts.ViewNotificationService
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:500:9-507:19
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:502:18-41
+	android:permission
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:501:18-72
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:500:18-57
+intent-filter#com.android.contacts.VIEW_NOTIFICATION
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:503:13-506:29
+action#com.android.contacts.VIEW_NOTIFICATION
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:504:17-80
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:504:25-78
+receiver#com.android.contacts.common.location.CountryDetector$LocationChangedReceiver
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:510:9-112
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:510:19-110
+service#com.android.contacts.common.location.UpdateCountryService
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:513:9-514:39
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:514:13-37
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:513:18-90
+provider#android.support.v4.content.FileProvider
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:516:9-524:20
+	android:grantUriPermissions
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:519:13-47
+	android:exported
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:520:13-37
+	android:authorities
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:518:13-61
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:517:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:521:13-523:54
+	android:resource
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:523:17-51
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:522:17-67
+meta-data#android.nfc.disable_beam_default
+ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:526:9-91
+	android:name
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:526:20-67
+	android:value
+		ADDED from D:\java\workspace\Android6.0_test\Contacts\app\src\main\AndroidManifest.xml:526:68-88
